@@ -28,7 +28,7 @@ swapoff -a
 
 ```
 
-## 3 - Dando aquela "emperequetada" no VIM :D
+## 3 - Dando aquela "emperequetada" no VIM. :gem:
 
 ```bash
 
@@ -78,7 +78,7 @@ gpgkey=https://packages.cloud.google.com/yum/doc/yum-key.gpg https://packages.cl
 
 ```
 
-### 4.2 - Docker (para o containerd) 
+### 4.2 - Docker (para o containerd).
 
 ```bash
 
@@ -96,7 +96,7 @@ dnf install -y containerd.io --allowerasing
 
 ## 6 - Habilitando módulos ```overlay``` e ```br_netfilter``` 
 
-### 6.1 - Em tempo real
+### 6.1 - Em tempo real.
 
 ```bash
 
@@ -105,7 +105,7 @@ modprobe br_netfilter
 
 ```
 
-### 6.2 - Permanentemente
+### 6.2 - Permanentemente.
 
 ```bash
 
