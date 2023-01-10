@@ -1,4 +1,4 @@
-# kubernetes
+# kubernetes :mortar_board:
 Repositório para consulta de instalação do ambiente.
 
 ## Esse guia tem por objetivo instalar o kubernetes, na versão 1.25.X, em um host RHEL like.
@@ -7,13 +7,17 @@ Repositório para consulta de instalação do ambiente.
 
 
 ```bash
+
 dnf install epel-release -y && \
 dnf install htop vim wget curl \
 yum-utils tmux bash-completion -y
+
 ```
+
 ## 2 - Desabilitar a partição ```swap```.
 
 ```bash
+
 # Desabilitando a swap dentro do fstab, também é possível só comentando a linha pertinente
 
 sed -i '/ swap / s/^/#/' /etc/fstab && \
@@ -21,6 +25,7 @@ sed -i '/ swap / s/^/#/' /etc/fstab && \
 # Desabilitando em tempo real
 
 swapoff -a
+
 ```
 
 ## 3 - Dando aquela "emperequetada" no VIM :D
@@ -32,6 +37,7 @@ vim /etc/profile.d/vimrc
 ```
 
 ```vim
+
 set autoindent
 set smartindent
 set number
@@ -47,6 +53,7 @@ filetype plugin on
 filetype indent on
 syntax on
 colorscheme desert
+
 ```
 
 ## 4 - Adicionando repositórios 
@@ -54,7 +61,9 @@ colorscheme desert
 ### 4.1 - Kubernetes
 
 ```bash
+
 vim /etc/yum.repos.d/kubernetes.repo
+
 ```
 
 ```vim
