@@ -1,4 +1,4 @@
-# kubernetes :mortar_board:
+# Instalação do Kubernetes com containerd (sem docker)! :mortar_board:
 Repositório para consulta de instalação do ambiente.
 
 ## Esse guia tem por objetivo instalar o kubernetes, na versão 1.25.X, em um host RHEL like.
