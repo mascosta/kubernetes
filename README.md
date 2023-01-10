@@ -158,7 +158,7 @@ systemctl enable --now containerd
 
 ```bash
 
-dnf install kubeadm-1.23.9 cri-tools-1.23.0 kubelet-1.23.9 kubectl-1.23.9 socat conntrack-tools -y
+dnf install kubeadm-1.25.5 cri-tools-1.23.0 kubelet-1.25.5 kubectl-1.25.5 socat conntrack-tools -y
 
 ```
 
